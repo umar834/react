@@ -1,0 +1,38 @@
+.form {
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+}
+
+.form h2{
+    text-align: center;
+    color: white;
+}
+.form .input,
+.form .button{
+    width: 100%;
+    margin: 10px 0;
+    font-size: 19px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form .input{
+    padding: 10px;
+}
+
+.form .button {
+    width: 200px;
+    background-color: rgb(72, 179, 68);
+    color: white;
+    float: right;
+    border: 2px solid rgb(72, 179, 68);
+    padding: 15px;
+}
+
+.form .button:hover{
+    background-color: white;
+    color: rgb(72, 179, 68);
+    border: 2px solid rgb(72, 179, 68);
+    cursor: pointer;
+}
