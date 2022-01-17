@@ -12,7 +12,9 @@ const App = () => {
   const [expenses, setExpenses] = useState(DUMMMY_DATA);
   const getFromData = (data) =>{
     setExpenses(prevExpenses =>{
-      return [data, ...prevExpenses];
+      var new_array = [data, ...prevExpenses];
+      console.log(new_array);
+      return new_array;
     })
   }
   return (

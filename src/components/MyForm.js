@@ -24,7 +24,7 @@ const MyForm = (props) =>
         const data = {
             name: enteredName,
             amount: enteredEmail,
-            date: enteredDate
+            date: new Date(enteredDate)
         };
         setEnteredName('');
         setEnteredEmail('');

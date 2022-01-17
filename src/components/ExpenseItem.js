@@ -20,7 +20,7 @@ function ExpenseItem(props) {
           <div>
             <h2>{expense.name}</h2>
             <h3>{expense.amount}</h3>
-            <h4>{expense.date.toLocaleString('en-US', options, '-')}</h4>
+            <h4>{expense.date.toLocaleString('en-US', options)}</h4>
           </div>
         ))}
       </div>
